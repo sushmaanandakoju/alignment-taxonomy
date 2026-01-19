@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/vega@6.2.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@6.4.1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@7.1.0"></script>
+</head>
+<body>
+  <div id="vis"/>
+  <script>
+    const spec = {
+  "$schema": "https://vega.github.io/schema/vega/v6.json",
+  "description": "An example of Cartesian layouts for a node-link diagram of hierarchical data.",
+  "width": 600,
+  "height": 1600,
+  "padding": 5,
+  "signals": [
+    {"name": "labels", "value": true, "bind": {"input": "checkbox"}},
+    {
+      "name": "layout",
+      "value": "tidy",
+      "bind": {"input": "radio", "options": ["tidy", "cluster"]}
+    },
+    {
+      "name": "links",
+      "value": "diagonal",
+      "bind": {
+        "input": "select",
+        "options": ["line", "curve", "diagonal", "orthogonal"]
+      }
+    },
+    {"name": "separation", "value": false, "bind": {"input": "checkbox"}}
+  ],
+  "data": [
+    {
+      "name": "tree",
+      "values": [
+        {
+          "id": 0,
+          "name": "Alignment Studies",
+          "parent": null,
+          "y": 961.038961038961,
+          "x": 0,
+          "depth": 0,
+          "children": 2
+        },
+        {
+          "id": 1,
+          "name": "Human-AI Alignment",
+          "parent": 0,
+          "y": 561.038961038961,
+          "x": 125,
+          "depth": 1,
+          "children": 2
+        },
+        {
+          "id": 2,
+          "name": "Alignment",
+          "parent": 1,
+          "y": 332.46753246753246,
+          "x": 250,
+          "depth": 2,
+          "children": 13
+        },
+        {
+          "id": 3,
+          "name": "Undesired Alignment",
+          "parent": 1,
+          "y": 789.6103896103896,
+          "x": 250,
+          "depth": 2,
+          "children": 9
+        },
+        {
+          "id": 4,
+          "name": "Divergence",
+          "parent": 2,
+          "y": 83.11688311688312,
+          "x": 375,
+          "depth": 3,
+          "children": 4
+        },
+        {
+          "id": 5,
+          "name": "Brain-AI Alignment",
+          "parent": 0,
+          "y": 1361.0389610389611,
+          "x": 125,
+          "depth": 1,
+          "children": 2
+        },
+        {
+          "id": 6,
+          "name": "Alignment",
+          "parent": 5,
+          "y": 1205.1948051948052,
+          "x": 250,
+          "depth": 2,
+          "children": 11
+        },
+        {
+          "id": 7,
+          "name": "Divergence",
+          "parent": 5,
+          "y": 1516.8831168831168,
+          "x": 250,
+          "depth": 2,
+          "children": 4
+        },
+        {
+          "id": 8,
+          "name": "(Shen et al. 2025a) ",
+          "parent": 2,
+          "y": 124.67532467532467,
+          "x": 375,
+          "depth": 3,
+          "children": 0
+        },
+        {
+          "id": 9,
+          "name": "(Schmager, Pappas, and Vassilakopoulou\n2025)",
+          "parent": 2,
+          "y": 166.23376623376623,
+          "x": 375,
+          "depth": 3,
+          "children": 0
+        },
+        {
+          "id": 10,
+          "name": "(Anwar et al. 2024)",
+          "parent": 2,
+          "y": 207.7922077922078,
+          "x": 375,
+          "depth": 3,
+          "children": 0
+        },
+        {
+          "id": 11,
+          "name": "(Bommasani et al. 2025)",
+          "parent": 2,
+          "y": 249.35064935064935,
+          "x": 375,
+          "depth": 3,
+          "children": 0
+        },
+        {
+          "id": 12,
+          "name": "(Regis et al. 2024)",
+          "parent": 2,
+          "y": 290.9090909090909,
+          "x": 375,
+          "depth": 3,
+          "children": 0
+        },
+        {
+          "id": 13,
+          "name": "(Branda, Ciccozzi, and Scarpa 2025) ",
+          "parent": 2,
+          "y": 332.46753246753246,
+          "x": 375,
+          "depth": 3,
+          "children": 0
+        },
+        {
+          "id": 14,
+          "name": "(Gandhi et al. 2023)",
+          "parent": 2,
+          "y": 374.02597402597405,
+          "x": 375,
+          "depth": 3,
+          "children": 0
+        },
+        {
+          "id": 15,
+          "name": "(Gandhi et al. 2024)",
+          "parent": 2,
+          "y": 415.5844155844156,
+          "x": 375,
+          "depth": 3,
+          "children": 0
+        },
+        {
+          "id": 16,
+          "name": "(Pavlick 2023)",
+          "parent": 2,
+          "y": 457.1428571428571,
+          "x": 375,
+          "depth": 3,
+          "children": 0
+        },
+        {
+          "id": 17,
+          "name": "(Yu et al. 2025)",
+          "parent": 2,
+          "y": 498.7012987012987,
+          "x": 375,
+          "depth": 3,
+          "children": 0
+        },
+        {
+          "id": 18,
+          "name": "(Liu et al. 2025)",
+          "parent": 2,
+          "y": 540.2597402597403,
+          "x": 375,
+          "depth": 3,
+          "children": 0
+        },
+        {
+          "id": 19,
+          "name": "(Shani et al. 2025)",
+          "parent": 2,
+          "y": 581.8181818181818,
+          "x": 375,
+          "depth": 3,
+          "children": 0
+        },
+        {
+          "id": 20,
+          "name": "(Gupta et al. 2023)",
+          "parent": 3,
+          "y": 623.3766233766233,
+          "x": 375,
+          "depth": 3,
+          "children": 0
+        },
+        {
+          "id": 21,
+          "name": "(Opedal et al. 2024)",
+          "parent": 3,
+          "y": 664.9350649350649,
+          "x": 375,
+          "depth": 3,
+          "children": 0
+        },
+        {
+          "id": 22,
+          "name": "(Lalwani et al. 2024)",
+          "parent": 3,
+          "y": 706.4935064935065,
+          "x": 375,
+          "depth": 3,
+          "children": 0
+        },
+        {
+          "id": 23,
+          "name": "(Li et al. 2024)",
+          "parent": 3,
+          "y": 748.0519480519481,
+          "x": 375,
+          "depth": 3,
+          "children": 0
+        },
+        {
+          "id": 24,
+          "name": "(Gu et al. 2025)",
+          "parent": 3,
+          "y": 789.6103896103896,
+          "x": 375,
+          "depth": 3,
+          "children": 0
+        },
+        {
+          "id": 25,
+          "name": "(Fan et al. 2024)",
+          "parent": 3,
+          "y": 831.1688311688312,
+          "x": 375,
+          "depth": 3,
+          "children": 0
+        },
+        {
+          "id": 26,
+          "name": "(Feng et al. 2024) ",
+          "parent": 3,
+          "y": 872.7272727272727,
+          "x": 375,
+          "depth": 3,
+          "children": 0
+        },
+        {
+          "id": 27,
+          "name": "(Wang et al. 2024)",
+          "parent": 3,
+          "y": 914.2857142857142,
+          "x": 375,
+          "depth": 3,
+          "children": 0
+        },
+        {
+          "id": 28,
+          "name": "(Saparov and He 2023)",
+          "parent": 3,
+          "y": 955.8441558441558,
+          "x": 375,
+          "depth": 3,
+          "children": 0
+        },
+        {
+          "id": 29,
+          "name": "(Cho, Li, and Leshinskaya 2025)",
+          "parent": 4,
+          "y": 20.77922077922078,
+          "x": 500,
+          "depth": 4,
+          "children": 0
+        },
+        {
+          "id": 30,
+          "name": "(Betley et al. 2025)",
+          "parent": 4,
+          "y": 62.33766233766234,
+          "x": 500,
+          "depth": 4,
+          "children": 0
+        },
+        {
+          "id": 31,
+          "name": "(MacDiarmid et al. 2025)",
+          "parent": 4,
+          "y": 103.8961038961039,
+          "x": 500,
+          "depth": 4,
+          "children": 0
+        },
+        {
+          "id": 32,
+          "name": "(Shani et al. 2025) ",
+          "parent": 4,
+          "y": 145.45454545454544,
+          "x": 500,
+          "depth": 4,
+          "children": 0
+        },
+        {
+          "id": 33,
+          "name": "(Silver and Mitchell 2023)",
+          "parent": 6,
+          "y": 997.4025974025974,
+          "x": 375,
+          "depth": 3,
+          "children": 0
+        },
+        {
+          "id": 34,
+          "name": "(Chen et al. 2024)",
+          "parent": 6,
+          "y": 1038.9610389610389,
+          "x": 375,
+          "depth": 3,
+          "children": 0
+        },
+        {
+          "id": 35,
+          "name": "(Aw et al. 2024)",
+          "parent": 6,
+          "y": 1080.5194805194806,
+          "x": 375,
+          "depth": 3,
+          "children": 0
+        },
+        {
+          "id": 36,
+          "name": "(Gao et al. 2025)",
+          "parent": 6,
+          "y": 1122.077922077922,
+          "x": 375,
+          "depth": 3,
+          "children": 0
+        },
+        {
+          "id": 37,
+          "name": "(Bo et al. 2024)",
+          "parent": 6,
+          "y": 1163.6363636363635,
+          "x": 375,
+          "depth": 3,
+          "children": 0
+        },
+        {
+          "id": 38,
+          "name": "(Ryskina et al. 2025)",
+          "parent": 6,
+          "y": 1205.1948051948052,
+          "x": 375,
+          "depth": 3,
+          "children": 0
+        },
+        {
+          "id": 39,
+          "name": "(Du et al. 2025)",
+          "parent": 6,
+          "y": 1246.7532467532467,
+          "x": 375,
+          "depth": 3,
+          "children": 0
+        },
+        {
+          "id": 40,
+          "name": "(Casto et al. 2025)",
+          "parent": 6,
+          "y": 1288.3116883116884,
+          "x": 375,
+          "depth": 3,
+          "children": 0
+        },
+        {
+          "id": 41,
+          "name": "(Ren et al. 2025)",
+          "parent": 6,
+          "y": 1329.8701298701299,
+          "x": 375,
+          "depth": 3,
+          "children": 0
+        },
+        {
+          "id": 42,
+          "name": "(Pinier et al. 2025)",
+          "parent": 6,
+          "y": 1371.4285714285713,
+          "x": 375,
+          "depth": 3,
+          "children": 0
+        },
+        {
+          "id": 43,
+          "name": "(Huh et al. 2024a)",
+          "parent": 6,
+          "y": 1412.987012987013,
+          "x": 375,
+          "depth": 3,
+          "children": 0
+        },
+        {
+          "id": 44,
+          "name": "(AlKhamissi et al. 2025) ",
+          "parent": 7,
+          "y": 1454.5454545454545,
+          "x": 375,
+          "depth": 3,
+          "children": 0
+        },
+        {
+          "id": 45,
+          "name": "(Zhou et al. 2024)",
+          "parent": 7,
+          "y": 1496.1038961038962,
+          "x": 375,
+          "depth": 3,
+          "children": 0
+        },
+        {
+          "id": 46,
+          "name": "(Li et al. 2025b)",
+          "parent": 7,
+          "y": 1537.6623376623377,
+          "x": 375,
+          "depth": 3,
+          "children": 0
+        },
+        {
+          "id": 47,
+          "name": "(Huh et al. 2024a)",
+          "parent": 7,
+          "y": 1579.2207792207791,
+          "x": 375,
+          "depth": 3,
+          "children": 0
+        }
+      ],
+      "transform": [
+        {"type": "stratify", "key": "id", "parentKey": "parent"},
+        {
+          "type": "tree",
+          "method": {"signal": "layout"},
+          "size": [{"signal": "height"}, {"signal": "width - 100"}],
+          "separation": {"signal": "separation"},
+          "as": ["y", "x", "depth", "children"]
+        }
+      ]
+    },
+    {
+      "name": "links",
+      "source": "tree",
+      "transform": [
+        {"type": "treelinks"},
+        {
+          "type": "linkpath",
+          "orient": "horizontal",
+          "shape": {"signal": "links"}
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "color",
+      "type": "linear",
+      "range": {"scheme": "magma"},
+      "domain": {"data": "tree", "field": "depth"},
+      "zero": true
+    }
+  ],
+  "marks": [
+    {
+      "type": "path",
+      "from": {"data": "links"},
+      "encode": {
+        "update": {"path": {"field": "path"}, "stroke": {"value": "#ccc"}}
+      }
+    },
+    {
+      "type": "symbol",
+      "from": {"data": "tree"},
+      "encode": {
+        "enter": {"size": {"value": 100}, "stroke": {"value": "#fff"}},
+        "update": {
+          "x": {"field": "x"},
+          "y": {"field": "y"},
+          "fill": {"scale": "color", "field": "depth"}
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {"data": "tree"},
+      "encode": {
+        "enter": {
+          "text": {"field": "name"},
+          "fontSize": {"value": 9},
+          "baseline": {"value": "middle"}
+        },
+        "update": {
+          "x": {"field": "x"},
+          "y": {"field": "y"},
+          "dx": {"signal": "datum.children ? -7 : 7"},
+          "align": {"signal": "datum.children ? 'right' : 'left'"},
+          "opacity": {"signal": "labels ? 1 : 0"}
+        }
+      }
+    }
+  ],
+  "config": {}
+};
+    vegaEmbed("#vis", spec, {mode: "vega"}).then(console.log).catch(console.warn);
+  </script>
+</body>
+</html>
