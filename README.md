@@ -11,13 +11,14 @@ This project surveys existing AI alignment studies to identify where different a
 - As of 27 Sept 2024: working without a formal advisor due to bandwidth restrictions and/or research alignment gaps.
 - Submitted: 26 Aug 2025, 17:08 EST – First Workshop on CogInterp: Interpreting Cognition in Deep Learning Models, NeurIPS 2025.
 - Reviews received: 21 Sept 2025, 17:53 EST
-- MOVE fellowship awarded: 9 Oct 2025 (no project assignment and no funding; this literature survey was conducted independently, guided only by reviewer comments from the CogInterp workshop)
+- MOVE fellowship awarded: 9 Oct 2025 (no project assignment and no funding; the AAAI 2026 Bridge Program literature‑survey submission was conducted independently, guided only by CogInterp workshop reviewer comment)
 - Began paper summaries (89+ papers): 1 Nov 2025.
 - Started drafting AAAI 2026 Bridge Program submission: 6 Dec 2025.
 - Submitted to AAAI 2026 Bridge Program and a workshop: mid Dec 2025, 06:16 EST.
 - Acceptance notification and reviews from Bridge Program: 28 Dec 2025, 18:55 EST.
+- The camera‑ready version of this survey incorporates a combination of review comments from both the CogInterp workshop and the AAAI 2026 Bridge Program.
 - No communication with any UNH members regarding this work or any workshop/bridge‑program‑related submissions, before or after submission.
-- To the best of my knowledge, no one’s work has ever been left unattributed in this project or in any of my past or current submissions on other projects, including submissions to workshops and conferences.
+- To the best of my knowledge —whether involved directly or indirectly— no one’s work has ever been left unattributed in this project or in any of my past or current submissions on other projects, including submissions to workshops and conferences.
 
 ### Paper Summaries for 49 papers (included in this work):
 
@@ -35,7 +36,7 @@ Note: All notes currently handwritten (with possible typos due to hand injury si
 - Other notes are outside the scope of this repository.
 
 ### Disclaimer
-Parts of the wording and framing of the language descriptions in this repository were refined with the help of Perplexity AI, used only as a writing assistant to improve clarity and avoid possible misunderstandings/misinterpretations of what I intended to communicate of the ethical, moral, and integrity-related points I intend to communicate. 
+Parts of the wording and framing of the language descriptions in this repository were refined with the help of Perplexity AI, used only as a writing assistant to improve clarity and to avoid possible misunderstandings/misinterpretations of the ethical, moral, and integrity-related points I intend to communicate. 
 **All research ideas, analysis, and survey content in this work and other works are my own and can be independently verified.**
 
 ### Taxonomy of the survey:
