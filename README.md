@@ -14,7 +14,7 @@ I am grateful to the reviewers, organizers, and chairs of the CogInterp workshop
 - I can supply human-written content verification confirming ZERO AI use for this work and submission, from writing paper summaries through drafting, incorporating review comments, and submitting the camera‑ready version and formatting corrections, with 100% transparency.
 - Any other claims will be addressed appropriately and respectfully through proper channels.
 
-### Progress and Status (verifiable):
+## Progress and Status (verifiable):
 
 - As of 27 Sept 2024: working without a formal advisor due to bandwidth restrictions and/or research alignment gaps.
 - Work started in July 2025.
@@ -30,6 +30,8 @@ I am grateful to the reviewers, organizers, and chairs of the CogInterp workshop
 - No communication with any UNH members regarding this work or any workshop/bridge‑program‑related submissions, before or after submission.
 - To the best of my knowledge, no one’s work —whether involved directly or indirectly— has ever been left unattributed in this project or in any of my past or current submissions on other projects, including submissions to workshops and conferences.
 
+## Additional materials
+
 ### Paper Summaries for 49 papers (included in this work):
 
 - TODO: Add LINK-TO-SHEETS with summarized readings (49 papers) once the document is presentable.
@@ -40,20 +42,20 @@ The following self‑study work additionally complemented this survey, as my pri
 
 Note: All notes currently handwritten (with possible typos due to hand injury since June 2024); may upload scanned notes if OCR extraction fails.
 
-- TODO: Add notes on Textbook on Cognitive Neuroscience by 31 Jan 2026
+- TODO: Add notes for Textbook on Cognitive Neuroscience by 31 Jan 2026
 - TODO: Add notes for Course 1 by 31 Jan 2026
 - TODO: Add notes for Course 2 by 31 Jan 2026
-- TODO: Add notes on AI and Cognition textbook by 31 Jan 2026
+- TODO: Add notes for AI and Cognition textbook by 31 Jan 2026
 - TODO: Add foundational notes on Representational Alignment by 31 Jan 2026
 - Other notes are outside the scope of this repository.
 
-### Disclaimer
+## Disclaimer
 
 Parts of the wording and framing of the language descriptions in this repository were refined with the help of Perplexity AI, used only as a writing assistant to improve clarity and to avoid possible misunderstandings/misinterpretations of the ethical, moral, and integrity-related points I intend to communicate.
 
 **All research ideas, analysis, and survey content in this work and other works are my own and can be independently verified.**
 
-### Taxonomy of the survey:
+## Taxonomy of the survey:
 
 - <a href="https://github.com/sushmaanandakoju/alignment-taxonomy/tree/main/taxonomy-grammar-html"> The taxonomy files using vega grammar and the html</a>
 
