@@ -9,9 +9,11 @@ This project surveys existing AI alignment studies to identify where different a
 ### Progress and Status (verifiable):
 
 - As of 27 Sept 2024: working without a formal advisor due to bandwidth restrictions and/or research alignment gaps.
+- Work started in July 2025.
 - Submitted: 26 Aug 2025, 17:08 EST – First Workshop on CogInterp: Interpreting Cognition in Deep Learning Models, NeurIPS 2025.
 - Reviews received: 21 Sept 2025, 17:53 EST
-- MOVE fellowship awarded: 9 Oct 2025 (no project assignment and no funding; the AAAI 2026 Bridge Program literature‑survey submission was conducted independently, guided only by CogInterp workshop reviewer comment)
+- MOVE fellowship awarded: 9 Oct 2025 (no project assignment and no funding and no supervision; the AAAI 2026 Bridge Program literature‑survey submission was conducted independently, guided only by CogInterp workshop reviewer comment)
+- No funding has been received from any university, institution, or individual for this project (or any related research) since May 2025.
 - Began paper summaries (89+ papers): 1 Nov 2025.
 - Started drafting AAAI 2026 Bridge Program submission: 6 Dec 2025.
 - Submitted to AAAI 2026 Bridge Program and a workshop: mid Dec 2025, 06:16 EST.
