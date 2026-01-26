@@ -8,6 +8,8 @@ I am grateful for the mentorship of my long‑term mentor, Prof. Tom Mitchell; h
 
 I am grateful to the reviewers, organizers, and chairs of the CogInterp workshop (NeurIPS 2025) and the LM‑Reasoning Bridge Program (AAAI 2026) for their feedback and support.
 
+Please read [Context section](https://github.com/sushmaanandakoju/alignment-taxonomy?tab=readme-ov-file#context).
+
 ## Citations/Other verifications
 
 - TODO: Add citation once arXiv processing is complete and/or once AAAI 2026 Bridge Program proceedings are available, whichever occurs first.
@@ -53,7 +55,18 @@ Note: All notes currently handwritten (with possible typos due to hand injury si
 
 Parts of the wording and framing of the language descriptions in this repository were refined with the help of Perplexity AI, used only as a writing assistant to improve clarity and to avoid possible misunderstandings/misinterpretations of the ethical, moral, and integrity-related points I intend to communicate.
 
+## Context 
+
+I have publicly described my research values and earlier version of my goals in AI, including concerns about rapid commercialization and a long‑standing research interest (see, [for example, my March 23, 2024 tweet on restarting or transferring my PhD to study LLMs and logic in depth](https://x.com/symbolicsushi/status/1771705204641284523) ). However, as I explored the technical details more deeply, my research focus naturally evolved to different topics, but my core values —critical thinking, transparency, and concern for research integrity—remained unchanged. In line with Lin et al. (2025), “Stop DDoS Attacking the Research Community with AI‑Generated Survey Papers", 
+my survey is carefully curated by me, transparently written by me, and grounded in original analysis; it is fully aligned with their call for quality and was never part of any “survey paper DDoS attack” phenomenon. 
+
+This survey is my own brainchild and is written by me. Its originality comes directly from the questions I formulated and pursued: I learn by articulating my own questions and then investigating them in depth, a process that is sometimes wrongly dismissed from the outside as “effortless". This work definitely is not Slopacolypse.
+
+If this work is ever mischaracterized as non‑human‑generated, I will pursue appropriate, respectful channels to correct the record and protect my authorship and my original ideas.
+
 **All research ideas, analysis, and survey content in this work and other works are my own and can be independently verified.**
+
+To move beyond subjective human-AI agents' judgments about whether something is 'AI‑generated' or not, may be we imagine using fMRI/EEG while a person writes, to record and evaluate the representational alignment between one's brain activity and the language one generates for one's own surveys and works — an exploratory, scientifically grounded and explainable way to verify that my statements remain aligned with my intentions.
 
 ## Taxonomy of the survey:
 
