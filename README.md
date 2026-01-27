@@ -34,9 +34,9 @@ Please read [Context section](https://github.com/sushmaanandakoju/alignment-taxo
 
 ## Additional materials
 
-### Paper Summaries for 49 papers (included in this work):
+### 49 Paper Summaries (included in this work):
 
-- TODO: Add LINK-TO-SHEETS with summarized readings (49 papers) once the document is presentable.
+[49 Paper Summaries](https://docs.google.com/spreadsheets/d/1FhV69IEKpsiONXFilE8XGj6SwaEVW4Lq-Q0AaSqBC6g/edit?usp=sharing)
 
 ### Self-Study on Cognitive Neuroscience, Brain-AI, Representational Alignment, and more
 
@@ -58,9 +58,9 @@ Parts of the wording and framing of the language descriptions in this repository
 ## Context 
 
 I have publicly described my research values and earlier version of my goals in AI, including concerns about rapid commercialization and a long‑standing research interest (see, [for example, my March 23, 2024 tweet on restarting or transferring my PhD to study LLMs and logic in depth](https://x.com/symbolicsushi/status/1771705204641284523) ). However, as I explored the technical details more deeply, my research focus naturally evolved to different topics, but my core values —critical thinking, transparency, and concern for research integrity—remained unchanged. In line with Lin et al. (2025), “Stop DDoS Attacking the Research Community with AI‑Generated Survey Papers", 
-my survey is carefully curated by me, transparently written by me, and grounded in original analysis; it is fully aligned with their call for quality and was never part of any “survey paper DDoS attack” phenomenon. 
+my survey is carefully curated by me, transparently written by me, and grounded in original analysis; it is fully aligned with their call for quality and was never part of any “survey paper DDoS attack”/"AI Slopacalypse" phenomenon. 
 
-This survey is my own brainchild and is written by me. Its originality comes directly from the questions I formulated and pursued: I learn by articulating my own questions and then investigating them in depth, a process that is sometimes wrongly dismissed from the outside as “effortless". This work definitely is not "AI Slopacolypse" (a neologism recently introduced, similar to "vibe coding").
+This survey is my own brainchild and is written by me. Its originality comes directly from the questions I formulated and pursued: I learn by articulating my own questions and then investigating them in depth, a process that is sometimes wrongly dismissed from the outside as “effortless".
 
 If this work is ever mischaracterized as non‑human‑generated, I will pursue appropriate, respectful channels to correct the record and protect my authorship and my original ideas.
 
