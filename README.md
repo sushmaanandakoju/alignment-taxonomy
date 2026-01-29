@@ -8,7 +8,7 @@ I am grateful for the mentorship of my long‑term mentor, Prof. Tom Mitchell; h
 
 I am grateful to the reviewers, organizers, and chairs of the CogInterp workshop (NeurIPS 2025) and the LM‑Reasoning Bridge Program (AAAI 2026) for their feedback and support.
 
-**Note:** This work only targets to bring together a direct record of various research works/surveys on alignment and divergences within Human-AI / Brain-AI representational studies to the best of my knowledge. Therefore this does not include a position or any new discovery and hence novelty is not an intended goal/outcome.
+**Note:** This work only targets to bring together a direct record of various research works/surveys on alignment and divergences within Human-AI / Brain-AI representational alignment studies to the best of my knowledge. Therefore this does not include a position or any new discovery and hence novelty is not an intended goal/outcome.
 
 Please read [Context section](https://github.com/sushmaanandakoju/alignment-taxonomy?tab=readme-ov-file#context) and [Proactive Verification Idea](https://github.com/sushmaanandakoju/alignment-taxonomy?tab=readme-ov-file#proactive-verification-idea).
 
