@@ -14,9 +14,30 @@ Please read [Context section](https://github.com/sushmaanandakoju/alignment-taxo
 
 ## Citations/Other verifications
 
-- TODO: Add citation once arXiv processing is complete and/or once AAAI 2026 Bridge Program proceedings are available, whichever occurs first.
+- Preprint available at DeSci Labs: <a href="https://beta.dpid.org/957">https://beta.dpid.org/957</a> pending AAAI 2026 Bridge Program proceedings. Preprint DOI: <a href="https://doi.org/10.62891/522505f0">https://doi.org/10.62891/522505f0</a>
+ 
+- TODO: Add citation - once arXiv processing is complete and once AAAI 2026 Bridge Program proceedings are available, whichever occurs first.
+- TODO: Update DOI on all preprint services.
 - I can supply human-written content verification confirming ZERO AI use for this work and submission, from writing paper summaries through drafting, incorporating review comments, and submitting the camera‑ready version and formatting corrections, with 100% transparency.
 - Any other claims will be addressed appropriately and respectfully through proper channels.
+
+#### Preprint citation:
+
+```bibtex
+@article{Akoju2026Preprint,
+  title={Finding Consensus from AI Alignment Studies: A Short Survey},
+  author={Akoju, Sushma Anand},
+  year={2026},
+  publisher={DeSci Publish},
+  howpublished={\url{https://beta.dpid.org/957}},
+  doi={10.62891/522505f0}
+}
+```
+**DOI:** [https://doi.org/10.62891/522505f0](https://doi.org/10.62891/522505f0)  
+**DeSci Node:** [https://beta.dpid.org/957](https://beta.dpid.org/957)
+
+Note: This is the preprint version. The camera-ready version will be included in the AAAI 2026 Bridge Program proceedings (later).
+
 
 ## Progress and Status (verifiable):
 
